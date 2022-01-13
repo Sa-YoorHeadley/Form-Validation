@@ -7,8 +7,59 @@
     <title>Form Validation</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/fcd58f153e.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <form action="/" method="get" class="register-form">
+        
+        <header class="form-header">
+            <h2>Create Account</h2>
+        </header>
+        
+        <main class="form-body">
+            <!-- Username -->
+            <div class="form-field">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="azari123" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small class="username-error">Error</small>
+            </div>
+
+            <!-- Email -->
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="azari123@gmail.com" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small class="email-error"></small>
+            </div>
+
+            <!-- Password -->
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small class="password-error"></small>
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="form-field">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small class="confirm-password-error"></small>
+            </div>
+
+            <!-- Submit -->
+            <button class="submit">Submit</button>
+            
+        </main>
+
+    </form>
     
 </body>
 </html>
