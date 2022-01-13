@@ -88,6 +88,7 @@ body{
 }
 .form-field small{
     position: absolute;
+    bottom: -10px;
     left: 0;
     visibility: hidden;
 }
