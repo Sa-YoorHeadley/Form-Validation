@@ -26,10 +26,17 @@ This simple is a HTML/CSS Form that uses JavaScript and Regular Expressions to v
 - Email invalid
 - Passwords do not match
 
+### Concepts Used
+- CSS Flexbox, Absolute positioning
+- Class toggling, DOM Manipulation, Event Listeners
+- Regular Expressions
+
 <!-- Video -->
 <div align="center"> 
   <img src="https://github.com/Sa-YoorHeadley/Form-Validation/blob/main/assets/Preview.gif?raw=true" alt="screenshot" />
 </div>
+
+> [Live URL](https://sa-yoorheadley.github.io/JS-Only-Searchbar/)
 
 <br />
 
