@@ -36,7 +36,7 @@ This simple is a HTML/CSS Form that uses JavaScript and Regular Expressions to v
   <img src="https://github.com/Sa-YoorHeadley/Form-Validation/blob/main/assets/Preview.gif?raw=true" alt="screenshot" />
 </div>
 
-> [Live URL](https://sa-yoorheadley.github.io/JS-Only-Searchbar/)
+> [Live URL](https://sa-yoorheadley.github.io/Form-Validation/)
 
 <br />
 
