@@ -5,7 +5,7 @@ const password = document.getElementById('password')
 const confirmPassword = document.getElementById('confirm-password')
 
 form.addEventListener('submit', (event) =>{
-    
+    event.preventDefault()
     const usernameValue = username.value;
     const emailValue = email.value;
     const passwordValue = password.value;
