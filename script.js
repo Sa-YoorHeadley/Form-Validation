@@ -43,12 +43,6 @@ form.addEventListener('submit', (event) =>{
     }else{
         setSuccessFor(confirmPassword)
     }
-<<<<<<< HEAD
-    //Stop from submitting
-=======
-
->>>>>>> e58786ff7f282b022146b701129744ee73d695d0
-    event.preventDefault()
 })
 
 //Set Error Class
