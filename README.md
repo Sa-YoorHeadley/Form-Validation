@@ -3,7 +3,7 @@
   <h1>Form Validation</h1>
   
   <p>
-    Simple HTML/CSS Form with validation using Regular Expressions.
+    HTML/CSS Form with validation using Regular Expressions.
   </p>
   
 <!-- Badges -->
